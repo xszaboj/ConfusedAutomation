@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace ConfusedAutomation
 {
-    public class Class1
+    class EndToEndSmokeTest
     {
+        PolicyType.
     }
 }
