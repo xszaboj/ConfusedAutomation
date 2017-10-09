@@ -47,9 +47,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EndToEndSmokeTest.cs" />
-    <Compile Include="InitialTestClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Pages\QuoteEntry.cs" />
+    <Compile Include="Selenium\Driver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
