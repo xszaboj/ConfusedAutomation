@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using System;
+using OpenQA.Selenium;
 using OpenQA.Selenium.Firefox;
 
 namespace ConfusedFramework
@@ -15,8 +16,14 @@ namespace ConfusedFramework
 
         public static void LevelTerm()
         {
-            var level = Driver.Instance.FindElement(By.ClassName("replaced-input-label"));
+            var level = Driver.Instance.FindElement(By.XPath("//LABEL[@for='PolicyType-1'][text()='Life insurance']/self::LABEL"));
             level.Click();
         }
+
+        public static void PolicyTerm()
+        {
+            var term = Driver.Instance.FindElement(By.Id("Term"));
+        }
+
     }
 }

@@ -11,6 +11,9 @@ namespace ConfusedTests
         {
             QuoteEntry.GoTo();
             QuoteEntry.LevelTerm();
+
+            //BOOKMARK - get it so that user can pass string to PolicyTerm
+            QuoteEntry.PolicyTerm();
         }
     }
 }
