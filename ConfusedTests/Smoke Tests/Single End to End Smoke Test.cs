@@ -10,10 +10,12 @@ namespace ConfusedTests
         public void SingleEndToEnd()
         {
             QuoteEntry.GoTo();
-            QuoteEntry.LevelTerm();
-
-            //BOOKMARK - get it so that user can pass string to PolicyTerm
-            QuoteEntry.PolicyTerm();
+            QuoteEntry.PolicyTypeLevelTerm();
+            QuoteEntry.PolicyTerm("28");
+            QuoteEntry.SumAssured("180000");
+            QuoteEntry.TitleMr();
+            QuoteEntry.App1FirstName("James");
+            QuoteEntry.App1Surname("Test");
         }
     }
 }
