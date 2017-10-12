@@ -47,6 +47,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="General Classes\Utilities.cs" />
     <Compile Include="Pages\ChosenQuote.cs" />
     <Compile Include="Pages\Results.cs" />
     <Compile Include="Pages\Upsell.cs" />

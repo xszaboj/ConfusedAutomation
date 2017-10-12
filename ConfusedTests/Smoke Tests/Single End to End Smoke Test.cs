@@ -53,6 +53,7 @@ namespace ConfusedTests
             QuoteEntry.ClickNextButton();
             QuoteEntry.ClickGetAQuoteButton();
             //RESULTS SCREEN
+            Utilities.Wait();
             Results.ApplyRoyalLondon();
             //UPSELL SCREEN
             Upsell.IndexationYes();

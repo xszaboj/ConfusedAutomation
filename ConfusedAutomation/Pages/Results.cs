@@ -8,7 +8,8 @@ namespace ConfusedFramework
     {
         public static void ApplyRoyalLondon()
         {
-            var royalLondon = Driver.Instance.FindElement(By.CssSelector("tr[data-code^='ABC']"));
+            var royalLondon = Driver.Instance.FindElement(By.CssSelector("tr[data-provider-code^='RLG']"));
+
         }
     }
 }
